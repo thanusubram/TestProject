@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+import com.sort.SortNumbers;
+
 public class DisplayPrimeNumber {
 	
 
@@ -32,6 +34,8 @@ public class DisplayPrimeNumber {
 			System.out.println(j+":"+primeNumbers.get(j-1));
 			
 		}
+		SortNumbers objSortNumbers = new SortNumbers(); //obj is a referance variable 
+		objSortNumbers.displaySortNumber();
 	}
 	
 
